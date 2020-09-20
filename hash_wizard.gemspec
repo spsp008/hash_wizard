@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This gem is useful in playing with ruby nested hashes, also in json format.}
   spec.description   = %q{This gem has methods to delete keys from a nested hash even from arrays, and to set value of a specific key in entire hash and to rename a key in the entire hash. }
-  spec.homepage      = "https://spsp008@bitbucket.org/spsp008/hash_wizard.git"
+  spec.homepage      = "https://github.com/spsp008/hash_wizard.git"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
