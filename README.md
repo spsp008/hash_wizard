@@ -21,8 +21,23 @@ Or install it yourself as:
     $ gem install hash_wizard
 
 ## Usage
+Delete keys from the entire nested Hash including arrays also.
 
-TODO: Write usage instructions here
+```ruby
+HashWizard.delete_keys(hash_with_symbols, [:symbol1, :symbol2...])
+```
+
+Rename a key in the Hash including arrays also.
+
+```ruby
+HashWizard.rename_key(hash_with_symbols, :current_symbol, :new_symbol)
+```
+
+Set the value of a specific key in the Hash including arrays also.
+
+```ruby
+HashWizard.set_key_value(hash_with_symbols, :key, value)
+```
 
 ## Development
 
@@ -32,7 +47,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hash_wizard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/spsp008/hash_wizard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
