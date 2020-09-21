@@ -21,7 +21,9 @@ Or install it yourself as:
     $ gem install hash_wizard
 
 ## Usage
-Delete keys from the entire nested Hash including arrays also.
+It returns a new hash after modifications.
+
+- **Delete** keys from the entire nested Hash including arrays also.
 
 ```ruby
 HashWizard.delete_keys(hash_with_symbols, [:symbol1, :symbol2...])
@@ -29,7 +31,7 @@ HashWizard.delete_keys(hash_with_symbols, [:symbol1, :symbol2...])
 HashWizard.delete_keys(hash_with_strings, ['string1', 'string2', ...])
 ```
 
-Rename a key in the Hash including arrays also.
+- **Rename** a key in the Hash including arrays also.
 
 ```ruby
 HashWizard.rename_key(hash_with_symbols, :current_symbol, :new_symbol)
@@ -37,7 +39,7 @@ HashWizard.rename_key(hash_with_symbols, :current_symbol, :new_symbol)
 HashWizard.rename_key(hash_with_strings, 'current_string', 'new_string')
 ```
 
-Set the value of a specific key in the Hash including arrays also.
+- **Set** the value of a specific key in the Hash including arrays also.
 
 ```ruby
 HashWizard.set_key_value(hash_with_symbols, :key, value)
